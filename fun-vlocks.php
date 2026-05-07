@@ -12,7 +12,7 @@ define('FUN_VLOCKS_DIR', plugin_dir_path( __FILE__ ));
 define('FUN_VLOCKS_URL', plugin_dir_url( __FILE__ ));
 define('FUN_VLOCKS_VER', '1.0.0');
 
-class Functions {
+class Fun_Vlocks_Functions {
     /**
      * Register blocks
      * 
