@@ -25,5 +25,5 @@ class Fun_Vlocks_Functions {
     }
 }
 
-$functions = new Functions();
+$functions = new Fun_Vlocks_Functions();
 add_action('init', array($functions, 'register_blocks'));
