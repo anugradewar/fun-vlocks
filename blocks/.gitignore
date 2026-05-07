@@ -12,7 +12,7 @@ coverage
 build/Release
 
 # Not used
-blocks/src/
+src/
 
 # Dependency directories
 node_modules/
@@ -35,3 +35,4 @@ node_modules/
 # package
 package.json
 package-lock.json
+.DS_Store
