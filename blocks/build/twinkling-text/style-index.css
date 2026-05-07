@@ -1,0 +1,61 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/twinkling-text/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+.wp-block-create-block-twinkling-text {
+  align-items: center;
+  box-sizing: border-box;
+  -moz-column-gap: var(--column-gap);
+       column-gap: var(--column-gap);
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.wp-block-create-block-twinkling-text.center-aligned {
+  margin-inline: auto;
+}
+
+.wp-block-create-block-twinkling-text.right-aligned {
+  margin-left: auto;
+}
+
+.wp-block-create-block-twinkling-text .dot {
+  background-color: var(--dot-color);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--dot-color);
+  height: var(--dot-size);
+  position: relative;
+  width: var(--dot-size);
+  z-index: 2;
+}
+
+.wp-block-create-block-twinkling-text .dot::before {
+  animation: ripple 3s infinite;
+  background-color: var(--dot-color);
+  border-radius: 50%;
+  content: "";
+  inset: 0;
+  opacity: 0.6;
+  position: absolute;
+  transform: scale(1);
+}
+
+@keyframes ripple {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  70% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.wp-block-create-block-twinkling-text p {
+  margin-block: 0px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
